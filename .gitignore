@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environment internals (since this folder doubles as a venv)
+Lib/
+Scripts/
+Include/
+share/
+etc/
+pyvenv.cfg
+.ipynb_checkpoints/
+AddIndicators/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data / outputs
+*.log
+*.csv
+output/
